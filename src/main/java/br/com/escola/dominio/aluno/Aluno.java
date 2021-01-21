@@ -22,9 +22,9 @@ public class Aluno
 		this.telefones.add(new Telefone(ddd, numero));
 	}
 
-	public CPF getCpf() 
+	public String getCpf() 
 	{
-		return cpf;
+		return cpf.getNumero();
 	}
 
 	public String getNome() 
@@ -32,9 +32,9 @@ public class Aluno
 		return nome;
 	}
 
-	public Email getEmail() 
+	public String getEmail() 
 	{
-		return email;
+		return email.getEndereco();
 	}
 
 	public List<Telefone> getTelefones() 
