@@ -8,6 +8,7 @@ public class Aluno
 	private CPF cpf;
 	private String nome;
 	private Email email;
+	private String senha;
 	private List<Telefone> telefones = new ArrayList<>();
 
 	public Aluno(CPF cpf, String nome, Email email) 
@@ -35,6 +36,11 @@ public class Aluno
 	public String getEmail() 
 	{
 		return email.getEndereco();
+	}
+	
+	public String getSenha() 
+	{
+		return senha;
 	}
 
 	public List<Telefone> getTelefones() 
