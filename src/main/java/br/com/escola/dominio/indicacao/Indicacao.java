@@ -1,6 +1,8 @@
-package br.com.escola;
+package br.com.escola.dominio.indicacao;
 
 import java.time.LocalDateTime;
+
+import br.com.escola.dominio.aluno.Aluno;
 
 public class Indicacao
 {

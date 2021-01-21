@@ -1,4 +1,4 @@
-package br.com.escola;
+package br.com.escola.dominio.aluno;
 
 public class Email 
 {

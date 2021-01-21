@@ -1,8 +1,10 @@
-package br.com.escola;
+package br.com.escola.dominio.aluno;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import br.com.escola.dominio.aluno.Telefone;
 
 class TelefoneTest 
 {
